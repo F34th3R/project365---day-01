@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Avenir Next LT Pro;
+}
+
+.container {
+  width: 65%;
+  margin: auto;
+}
+
+nav {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .brand-logo {
+  width: 38px;
+  height: 48px;
+}
+
+nav .burger-menu img {
+  width: 20px;
+  height: 14px;
+}
+
+nav .burger-menu img :hover {
+  cursor: pointer;
+  outline: none;
+}
+
+header {
+  padding: 180px 0;
+}
+
+header h1 {
+  text-align: left;
+  font-weight: Bolt;
+  font-size: 58px;
+  line-height: 70px;
+  letter-spacing: -0.87px;
+}
+
+header p {
+  width: 70%;
+  padding-top: 10px;
+  line-height: 30px;
+  letter-spacing: 0.22px;
+}
+
+main {
+  position: relative;
+}
+
+main .col-2 {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 46.5% 46.5%;
+      grid-template-columns: 46.5% 46.5%;
+      grid-template-areas: "";
+}
+
+main .card {
+  width: 100%;
+}
+
+main .card-image {
+  width: 100%;
+}
+
+main .card .img-lg {
+  height: 900px;
+}
+
+main .card .img-md {
+  height: 750px;
+}
+
+main .card .img-sm {
+  height: 650px;
+}
+
+main .card .img-xs {
+  height: 450px;
+}
+
+main .card-content {
+  margin: 58px 0 60px 28px;
+}
+
+main .card-content h3 {
+  text-align: left;
+  font-weight: Bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 2.05px;
+}
+
+main .card-content p {
+  padding: 12px 0;
+  font-family: Raleway;
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 2.62px;
+}
+
+main .top-more-250 {
+  margin-top: 250px;
+}
+
+main .top-less-110 {
+  margin-top: -130px;
+}
+
+main .top-less-565 {
+  margin-top: -565px;
+}
+
+main .load-more {
+  margin: 145px 0;
+  text-align: center;
+}
+
+main .load-more button {
+  padding: 20px 95px;
+  background: none;
+  border: 1px solid #6A6A6A;
+  border-radius: 50px;
+  outline: none;
+  font-weight: Bold;
+  font-size: 24px;
+}
+
+footer {
+  height: 115px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer h3 {
+  font-weight: Bold;
+  font-size: 20px;
+}
+
+footer h4 {
+  margin-top: 8px;
+}
+
+footer .social {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .social h3 {
+  margin-right: 10px;
+}
+
+footer .social img {
+  height: 20px;
+  width: 30px;
+  margin: 0 8px;
+}
+
+@media (max-width: 2560px) {
+  .container {
+    width: 52%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 82%;
+  }
+  main .card .img-lg {
+    height: 650px;
+  }
+  main .card .img-md {
+    height: 550px;
+  }
+  main .card .img-sm {
+    height: 450px;
+  }
+  main .card .img-xs {
+    height: 350px;
+  }
+  main .top-less-565 {
+    margin-top: -415px;
+  }
+  main .load-more {
+    margin: 70px 0 100px 0;
+  }
+  main .load-more button {
+    padding: 13px 58px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 92%;
+    margin: auto;
+  }
+  header {
+    padding: 100px 0 140px 0;
+  }
+  header h1 {
+    font-size: 36px;
+    line-height: 60px;
+  }
+  header p {
+    width: 90%;
+    padding-top: 5px;
+    line-height: 26px;
+  }
+  main .col-2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  main .card .img-lg {
+    height: 550px;
+  }
+  main .card .img-md {
+    height: 550px;
+  }
+  main .card .img-sm {
+    height: 550px;
+  }
+  main .card .img-xs {
+    height: 550px;
+  }
+  main .top {
+    margin-top: 0;
+  }
+  main .load-more {
+    margin: 60px 0;
+  }
+  main .load-more button {
+    padding: 13px 58px;
+    font-size: 16px;
+  }
+  footer {
+    height: 100px;
+  }
+  footer h3 {
+    font-weight: Bold;
+    font-size: 18px;
+  }
+  footer h4 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  footer h3 span {
+    display: none;
+  }
+  footer .social h3 {
+    display: none;
+  }
+  footer .social img {
+    height: 18px;
+    width: 25px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
